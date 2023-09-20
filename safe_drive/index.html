@@ -10,9 +10,9 @@
 <link href="../rclpy/" rel="prev"/>
 <link href="../braitenberg_vehicle/" rel="next"/>
 <link href="../images/favicon.png" rel="icon"/>
-<meta content="mkdocs-1.5.2, mkdocs-material-9.2.7" name="generator"/>
+<meta content="mkdocs-1.5.3, mkdocs-material-9.3.2" name="generator"/>
 <title>Rustによるpub/sub通信 - ros_handson</title>
-<link href="../assets/stylesheets/main.046329b4.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/main.30068a00.min.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/palette.85d0ee34.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
@@ -403,14 +403,12 @@ cargo<span class="w"> </span>new<span class="w"> </span>rust_tutorial<span class
 <span class="w">  </span><span class="nt">&lt;maintainer</span><span class="w"> </span><span class="na">email=</span><span class="s">"hoge@hoge.com"</span><span class="nt">&gt;</span>Hoge<span class="w"> </span>Hogesuke<span class="nt">&lt;/maintainer&gt;</span>
 <span class="w">  </span><span class="nt">&lt;license&gt;</span>Hoge<span class="w"> </span>license<span class="nt">&lt;/license&gt;</span>
 
-<span class="w">  </span><span class="nt">&lt;buildtool_depend&gt;</span>ament_cmake<span class="nt">&lt;/buildtool_depend&gt;</span>
-
 <span class="w">  </span><span class="nt">&lt;depend&gt;</span>std_msgs<span class="nt">&lt;/depend&gt;</span>
 
 <span class="w">  </span><span class="nt">&lt;test_depend&gt;</span>ament_lint_auto<span class="nt">&lt;/test_depend&gt;</span>
 <span class="w">  </span><span class="nt">&lt;test_depend&gt;</span>ament_lint_common<span class="nt">&lt;/test_depend&gt;</span>
 <span class="w">  </span><span class="nt">&lt;export&gt;</span>
-<span class="w">    </span><span class="nt">&lt;build_type&gt;</span>ament_cmake<span class="nt">&lt;/build_type&gt;</span>
+<span class="w">    </span><span class="nt">&lt;build_type&gt;</span>ament_cargo<span class="nt">&lt;/build_type&gt;</span>
 <span class="w">  </span><span class="nt">&lt;/export&gt;</span>
 <span class="nt">&lt;/package&gt;</span>
 </code></pre></div>
@@ -582,7 +580,7 @@ colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --cargo-a
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 16, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 20, 2023</span>
 </small>
 </div>
 </article>
